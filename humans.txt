@@ -3,7 +3,10 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Web developer: Hérick Moukodi
+	Site: http://spherickal.com
+	Twitter: @spherickal
+	Location: London E1
 
 # THANKS
 
