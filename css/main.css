@@ -93,7 +93,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-header h1 {background-image:url('/img/logo.gif'); width:171px; height:45px;}
+#header h1 {background-image:url('/img/logo.gif'); width:171px; height:45px;}
 
 /* Starbuck general */
 
@@ -138,20 +138,25 @@ header h1 {background-image:url('/img/logo.gif'); width:171px; height:45px;}
 .ie8 .region img {
 	width: auto;
 }
-
 .size1of1 {
 	float: none;
 }
-
+.size4of5 {
+	width: 80%;
+}
+#header {
+	position: relative;
+	margin-bottom: 1em;
+	min-height: 100px;
+}
+ol {
+	margin-left: 18px;
+	list-style: decimal;
+}
 
 
 /* Starbucks nav */
 
-@media(min-width:769px) {
-.social_icons {
-	padding-top: .75em;
-}
-}
 #nav {
 	position: relative;
 	left: -3%;
@@ -170,7 +175,7 @@ header h1 {background-image:url('/img/logo.gif'); width:171px; height:45px;}
 	padding: 10px 10px 14px;
 	width: 21px;
 	height: 17px;
-	background: #1e1e1e url(/static/images/global/nav_collapsed.png) no-repeat 10px 12px;
+	background: #1e1e1e url(http://www.starbucls.com/static/images/global/nav_collapsed.png) no-repeat 10px 12px;
 	text-indent: 9999px;
 	overflow: hidden;
 }
